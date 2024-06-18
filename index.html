@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizz the Tropa Time Staff Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rizz the Tropa Time Staff Team Entry</h1>
+        <div id="entryFormContainer">
+            <form id="entryForm" action="https://formspree.io/f/mpzvvglk" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="discordUsername">Discord Username:</label>
+                <input type="text" id="discordUsername" name="discordUsername" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="confirmation" class="hidden">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
